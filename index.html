@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VeriFind | Online Fact Checker </title>
+    <title>VeriFynd | Online Fact Checker </title>
     <!-- IMP -->
     <link rel="stylesheet" media="screen and (max-width: 1100px)" href="phone.css">
 
@@ -22,7 +22,7 @@
             <div id="logo">
                 <img src="logo-edited.png" alt="">
             </div>
-            <div id="title">VeriFind</div>
+            <div id="title">VeriFynd</div>
 
             <ul>
                 <li class="item" style="order: 5;"><a href="#" class="active">Home</a></li>
@@ -34,8 +34,8 @@
         </nav>
 
         <section id="home">
-            <h1 class="h-primary">Lorem.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, ipsa!</p>
+            <h1 class="h-primary">Real??</h1>
+            <p id="subtext">Stay ahead of misinformation with our groundbreaking news authenticity checker, setting new standards in trustworthiness!</p>
             <div id="utbar">
             <div id="switchbtn">
                 <button class="btn" id="urlbtn" onclick="tab1();">
@@ -49,12 +49,12 @@
             <div id="sbar">
             <p id="order1">
 
-                <input type="text" placeholder="Enter url." id="enterlocation1">
-                <button class="btn" id="ordernow">CHECK</button>
+                <input type="url" placeholder="Enter url." id="enterlocation1">
+                <button class="btn" href= "#services" id="ordernow">CHECK</button>
 
             </p>
             <p id="order2">
-                <input type="text" placeholder="Enter the text." id="enterlocation2">
+                <input type="text" href="#services" placeholder="Enter the text." id="enterlocation2">
                 <button class="btn" id="ordernow">CHECK</button>
             </p>
             </div>
@@ -68,48 +68,29 @@
 
     <div class="services-container">
         <div id="services">
-            <div class="box">
-                <center>
-                    <img src="smartphone.png" alt="" id="phone">
-                    <br>
-                    <span class="bold">Order From Any Device</span>
-                    <br>
-                    <span class="normal">Order food from your phone, laptop etc. with your comfort</span>
-                </center>
-            </div>
-            <div class="box">
-                <center>
-                    <img src="order.png" alt="">
-                    <br>
-                    <span class="bold">Order Instantly</span>
-                    <br>
-                    <span class="normal">Order instantly with minimum and easy steps.</span>
-                </center>
-            </div>
-            <div class="box">
-                <center>
-                    <img src="order-food.png" alt="">
-                    <br>
-                    <span class="bold">Live Order Tracking</span>
-                    <br>
-                    <span class="normal">Know where your order is at all times, from the restaurant to your
-                        doorstep</span>
-                </center>
-            </div>
-            <div class="box">
-                <center>
-                    <img src="food-delivery.png" alt="">
-                    <br>
-                    <span class="bold">Lightning-Fast Delivery</span>
-                    <br>
-                    <span class="normal">Experience superfast delivery for food delivered fresh & on time</span>
-                </center>
-            </div>
+           <div class="h-primary" id="results">
+            Results
+           </div>
         </div>
     </div>
+
+    <div id="end">
     <div class="contactus-container">
-        <h1 class="h-primary1">Contact Us</h1>
-        <form action="#" id="form">
+        <h1 class="h-primary1">ABOUT US</h1>
+        <div id="abtustext">
+            Welcome to <span id="red">VeriFynd</span>, where accuracy meets assurance. At Fact Verifier, we recognize the critical role that reliable information plays in today's dynamic landscape. Our commitment is to provide a trustworthy platform for fact-checking, ensuring that you have access to verified and credible data.<br><br>
+
+Founded with a passion for truth and integrity, Fact Verifier stands as a beacon in the era of information overload. In a world where misinformation can have far-reaching consequences, we take pride in our mission to empower individuals, businesses, and organizations with the tools they need to discern fact from fiction.<br><br>
+
+Our dedicated team of experts comprises seasoned professionals in fact-checking, research, and data analysis. We employ robust methodologies and cutting-edge technologies to meticulously verify information, delivering results you can depend on. Whether you're a journalist, researcher, or concerned citizen, Fact Verifier is your go-to resource for accurate and validated data.<br><br>
+
+Transparency is at the core of our values. We understand the importance of clear, concise, and credible information, and we strive to provide it in every aspect of our services. Our user-friendly platform is designed to make fact-checking accessible to everyone, promoting a culture of accountability and informed decision-making.<br><br>
+
+At Fact Verifier, we go beyond the surface, delving into the depths of information to uncover the truth. Our commitment to excellence extends to our clients, and we are dedicated to fostering a community where verifiable information is the cornerstone of knowledge.<br><br>
+
+Join us on our journey to create a world where facts matter, where misinformation is challenged, and where truth prevails. Fact Verifier – your partner in the pursuit of accuracy and reliability.
+        </div>
+        <!-- <form action="#" id="form">
             <div class="form-class">
                 <label for="name">Name:</label>
                 <input type="text" placeholder="Enter your name" id="name" name="name">
@@ -126,14 +107,17 @@
                 <label for="name">Message:</label>
                 <textarea name="mane" id="name" cols="20" rows="8" placeholder="Enter your message"></textarea>
              </div>
-             <!-- <div id="submit">
+             <div id="submit">
                 <input type="submit" value="Submit">
              </div> -->
-        </form>
-        <footer>
-            Copyright &copy www.esymeals.com All rights reserved!
-        </footer>
+        <!-- </form> -->
+        </div>
     </div>   
+        <!-- <footer> -->
+            <!-- <div id="footer"> -->
+            <!-- Copyright &copy www.veryfind.com All rights reserved! -->
+            <!-- </div> -->
+        <!-- </footer> -->
     <script src="/scrpit.js"></script> 
 </body>
 
