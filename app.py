@@ -6,3 +6,4 @@ app = Flask(__name__)
 
 def convert():
     order1 = request.form['order1']
+    enterlocation1 = request.form['enterlocation1']
