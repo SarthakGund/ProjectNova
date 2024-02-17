@@ -210,6 +210,7 @@
     /* border-radius: 9px; */
     backdrop-filter: blur(11px);
     /* margin-top: 30px; */
+    color: white;
     margin-bottom: 5px;
     padding: 0px 15px;
     font-size: 17px;
@@ -227,6 +228,7 @@
     /* border-radius: 9px; */
     backdrop-filter: blur(11px);
     /* margin-top: 30px; */
+    color: white;
     margin-bottom: 5px;
     padding: 0px 15px;
     font-size: 17px;
